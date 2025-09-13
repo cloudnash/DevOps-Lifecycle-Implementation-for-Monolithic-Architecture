@@ -62,7 +62,6 @@ devops-lifecycle-implementation/
 
 ├── README.md   # This file
 
-
 ├── .gitignore     # Git ignore rules
 
 
