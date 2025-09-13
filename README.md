@@ -23,9 +23,16 @@ f. Ansible configuration management
 
 **🏗️ Architecture Components**
 
-┌────────┐
-
-│ GitHub Repo │
+  
+  GitHub Repo   ───▶  Jenkins Master  ───▶  Docker Hub 
+   
+                                │                      │
+                                ▼                      ▼
+                    
+                         Ansible Config       Kubernetes Cluster
+                                │                      │
+                                ▼                      ▼
+                        Terraform (AWS)        Application Pods 
 
 
 
