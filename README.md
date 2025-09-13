@@ -62,19 +62,19 @@ devops-lifecycle-implementation/
 
 
 
-├── .gitignore
+├── .gitignore     # Git ignore rules
 
-# Git ignore rules
 
-├── Jenkinsfile
 
-# Jenkins pipeline configuration
+├── Jenkinsfile    # Jenkins pipeline configuration
 
-├── Dockerfile
 
-# Application containerization
 
-├── docker-compose.yml                 # Local development environment
+├── Dockerfile    # Application containerization
+ 
+
+
+├── docker-compose.yml             # Local development environment
 
 
 
