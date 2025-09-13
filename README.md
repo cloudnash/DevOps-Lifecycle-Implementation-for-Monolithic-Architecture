@@ -61,30 +61,22 @@ devops-lifecycle-implementation/
 
 
 ├── README.md   # This file
-
 ├── .gitignore     # Git ignore rules
-
-
 ├── Jenkinsfile    # Jenkins pipeline configuration
-
-
 ├── Dockerfile    # Application containerization
- 
-
 ├── docker-compose.yml             # Local development environment
-
 ├── 
 
 ├── terraform/     # Infrastructure as Code
 
-│   ├── main.tf    # Main Terraform configuration
+│           ├── main.tf    # Main Terraform configuration
 
-│   ├── variables.tf   # Variable definitions
+│           ├── variables.tf   # Variable definitions
 
-│   ├── outputs.tf   # Output values
+│           ├── outputs.tf   # Output values
 
 
-│   ├── provider.tf   # AWS provider configuration
+│           ├── provider.tf   # AWS provider configuration
 
 
 │   └── modules/
