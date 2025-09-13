@@ -1,5 +1,7 @@
 # DevOps-Lifecycle-Implementation-for-Monolithic-Architecture
+
 🎯 #This project demonstrates a comprehensive DevOps transformation migrating from monolithic architecture to modern containerized deployment. The solution implements automated CI/CD pipelines, infrastructure as code, and scalable Kubernetes orchestration.
+
 
 
 **Problem Statement**
@@ -8,6 +10,8 @@ a. Manual deployment processes causing delays
 b. Monolithic architecture limiting scalability
 c. Inconsistent environments between testing and production
 d. Need for automated infrastructure provisioning
+
+
 
 
 **Solution Architecture**
@@ -153,12 +157,13 @@ aws configure
 
 3. Deploy Infrastructure
 
+```
 # Initialize Terraform
 cd terraform
 terraform init
 terraform plan
 terraform apply -auto-approve
-
+```
 
 4. Configure Nodes with Ansible
 
