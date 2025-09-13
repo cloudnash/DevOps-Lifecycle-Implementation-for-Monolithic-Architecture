@@ -26,7 +26,7 @@ f. Ansible configuration management
 ┌───────────┐
 
 
-│   GitHub Repo   │
+│ GitHub Repo │
 
 
 
