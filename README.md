@@ -42,11 +42,17 @@ f. Ansible configuration management
 **🚀 Features**
 
 a. Automated CI/CD Pipeline: Jenkins-based pipeline with GitHub integration
+
 b. Container Orchestration: Kubernetes deployment with 2 replicas for high availability
+
 c. Infrastructure as Code: Terraform for AWS resource provisioning
+
 d. Configuration Management: Ansible playbooks for consistent node configuration
+
 e. Docker Integration: Custom Docker images pushed to Docker Hub
+
 f. Monitoring Ready: CloudWatch integration for infrastructure monitoring
+
 g. Security: Proper IAM roles and security groups configuration
 
 
