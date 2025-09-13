@@ -58,23 +58,47 @@ g. Security: Proper IAM roles and security groups configuration
 
 devops-lifecycle-implementation/
 
-├── README.md   # This file
 
+
+├── README.md   # This file
 
 
 ├── .gitignore     # Git ignore rules
 
 
-
 ├── Jenkinsfile    # Jenkins pipeline configuration
-
 
 
 ├── Dockerfile    # Application containerization
  
 
-
 ├── docker-compose.yml             # Local development environment
+
+├── 
+
+├── terraform/     # Infrastructure as Code
+
+│   ├── main.tf    # Main Terraform configuration
+
+│   ├── variables.tf   # Variable definitions
+
+│   ├── outputs.tf   # Output values
+
+
+│   ├── provider.tf   # AWS provider configuration
+
+
+│   └── modules/
+
+│       ├── ec2/    # EC2 instance module
+
+│       ├── networking/   # VPC and security groups
+
+
+│       └── iam/    # IAM roles and policies
+
+
+├──
 
 
 
