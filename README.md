@@ -24,6 +24,8 @@ f. Ansible configuration management
 **🏗️ Architecture Components**
 
 ┌─────────────────┐
+
+
 │   GitHub Repo   │
 
 
