@@ -295,22 +295,31 @@ kubectl get nodes,pods,services -n analytics-prod
 
 🤝 #Contributing
 
+
 Fork the repository
+
 Create a feature branch (git checkout -b feature/amazing-feature)
+
 Commit your changes (git commit -m 'Add some amazing feature')
+
 Push to the branch (git push origin feature/amazing-feature)
+
 Open a Pull Request
 
 
 🙏 #Acknowledgments
 
-Analytics Pvt Ltd for providing the challenging requirements
 AWS Documentation for cloud best practices
+
 Kubernetes Community for container orchestration guidance
+
 Jenkins Community for CI/CD pipeline examples
+
 
 📞 #Contact
 
-GitHub: 
+GitHub: https://github.com/cloudnash
+
 LinkedIn: www.linkedin.com/in/nashitahmad
+
 Email: nashitakerfeldt@gmail.com
