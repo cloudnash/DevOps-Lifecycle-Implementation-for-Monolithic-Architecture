@@ -25,7 +25,7 @@ f. Ansible configuration management
 
 
 
-**#🏗️ Architecture Components**
+**🏗️ Architecture Components**
 
 
     GitHub Repo   ───▶ Jenkins Master  ───▶  Docker Hub 
@@ -58,7 +58,7 @@ g. Security: Proper IAM roles and security groups configuration
 
 
 
-**#📁 Repository Structure**
+**📁 Repository Structure**
 
 # DevOps Lifecycle Implementation
 
