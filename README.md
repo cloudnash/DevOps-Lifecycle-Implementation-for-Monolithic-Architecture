@@ -228,7 +228,7 @@ Network Policies: Kubernetes network segmentation
 
 
 
-##📊 Monitoring & Observability
+#📊 Monitoring & Observability
 CloudWatch Integration
 
 Instance Monitoring: CPU, Memory, Disk usage
