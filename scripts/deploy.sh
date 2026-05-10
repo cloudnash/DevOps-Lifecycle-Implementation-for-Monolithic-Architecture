@@ -124,3 +124,21 @@ health_check() {
         log_warn "⚠️  Health check warning: Only $RUNNING_PODS pods running"
     fi
 }
+
+
+# Main execution
+main() {
+    log_info "=== Analytics App Deployment Script ==="
+    
+    check_prerequisites
+    build_and_push_image
+    deploy_to_kubernetes
+    health_check
+    
+    log_info "🎉 Deployment process completed!"
+}
+
+# Script execution
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    main "$@"
+fi
