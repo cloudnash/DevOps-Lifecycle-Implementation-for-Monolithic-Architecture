@@ -74,11 +74,7 @@ devops-lifecycle-implementation/
 │   ├── main.tf                         # Main Terraform configuration
 │   ├── variables.tf                    # Variable definitions
 │   ├── outputs.tf                      # Output values
-│   ├── provider.tf                     # AWS provider configuration
-│   └── modules/
-│       ├── ec2/                        # EC2 instance module
-│       ├── networking/                 # VPC and security groups
-│       └── iam/                        # IAM roles and policies
+│   └── provider.tf                     # AWS provider configuration
 │
 ├── kubernetes/                         # K8s deployment configurations
 │   ├── deployment.yaml                 # Application deployment
@@ -88,39 +84,18 @@ devops-lifecycle-implementation/
 │
 ├── ansible/                            # Configuration management
 │   ├── inventory/                      # Inventory files
-│   │   ├── hosts.ini                   # Server inventory
-│   │   └── group_vars/                 # Group variables
+│   │   └── hosts.ini                   # Server inventory
 │   ├── playbooks/                      # Ansible playbooks
 │   │   ├── site.yml                    # Main playbook
 │   │   ├── jenkins-setup.yml           # Jenkins installation
 │   │   ├── docker-setup.yml            # Docker installation
 │   │   └── k8s-setup.yml               # Kubernetes setup
-│   └── roles/                          # Ansible roles
-│       ├── common/                     # Common configurations
-│       ├── jenkins/                    # Jenkins role
-│       ├── docker/                     # Docker role
-│       └── kubernetes/                 # Kubernetes role
 │
-├── scripts/                            # Automation scripts
-│   ├── deploy.sh                       # Deployment script
-│   ├── cleanup.sh                      # Resource cleanup
-│   ├── health-check.sh                 # Application health check
-│   └── backup.sh                       # Backup automation
-│
-├── docs/                               # Documentation
-│   ├── installation.md                 # Installation guide
-│   ├── configuration.md                # Configuration details
-│   ├── troubleshooting.md              # Common issues and solutions
-│   └── images/                         # Architecture diagrams
-│
-├── monitoring/                         # Monitoring configurations
-│   ├── cloudwatch/                     # CloudWatch dashboards
-│   └── alerts/                         # Alert configurations
-│
-└── tests/                              # Testing scripts
-    ├── unit/                           # Unit tests
-    ├── integration/                    # Integration tests
-    └── load/                           # Load testing scripts
+└──  scripts/                            # Automation scripts
+   ├── deploy.sh                       # Deployment script
+   ├── cleanup.sh                      # Resource cleanup
+   ├── health-check.sh                 # Application health check
+   └── backup.sh                       # Backup automation
 ```
 
 
