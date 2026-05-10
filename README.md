@@ -72,9 +72,7 @@ devops-lifecycle-implementation/
 │
 ├── terraform/                          # Infrastructure as Code
 │   ├── main.tf                         # Main Terraform configuration
-│   ├── variables.tf                    # Variable definitions
-│   ├── outputs.tf                      # Output values
-│   └── provider.tf                     # AWS provider configuration
+│   └── variables.tf                    # Variable definitions
 │
 ├── kubernetes/                         # K8s deployment configurations
 │   ├── deployment.yaml                 # Application deployment
@@ -86,16 +84,10 @@ devops-lifecycle-implementation/
 │   ├── inventory/                      # Inventory files
 │   │   └── hosts.ini                   # Server inventory
 │   ├── playbooks/                      # Ansible playbooks
-│   │   ├── site.yml                    # Main playbook
-│   │   ├── jenkins-setup.yml           # Jenkins installation
-│   │   ├── docker-setup.yml            # Docker installation
-│   │   └── k8s-setup.yml               # Kubernetes setup
+│   │   └── site.yml                    # Main playbook
 │
 └──  scripts/                            # Automation scripts
-   ├── deploy.sh                       # Deployment script
-   ├── cleanup.sh                      # Resource cleanup
-   ├── health-check.sh                 # Application health check
-   └── backup.sh                       # Backup automation
+   └── deploy.sh                       # Deployment script
 ```
 
 
