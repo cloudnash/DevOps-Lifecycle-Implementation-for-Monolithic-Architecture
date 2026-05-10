@@ -1,0 +1,26 @@
+---
+- name: Configure Jenkins Master
+  hosts: jenkins_master
+  become: yes
+  roles:
+    - common
+    - jenkins
+  vars:
+    jenkins_admin_password: "{{ vault_jenkins_password }}"
+    jenkins_plugins:
+      - git
+      - docker-workflow
+      - kubernetes
+      - pipeline-stage-view
+      - blueocean
+
+- name: Configure Kubernetes Workers
+  hosts: k8s_workers
+  become: yes
+  roles:
+    - common
+    - docker
+    - kubernetes
+  vars:
+    k8s_version: "1.28.0"
+    docker_version: "24.0"
